@@ -50,7 +50,4 @@ function myFunction()
 
 ## Privacy Statement
 ur name and year and schedule is kept in our servers ~~so that we can hack you~~ for around like 2 weeks maybe. then is gone
-## Credits
 
-### Water.css
-[Link to Download](https://watercss.kognise.dev/)
