@@ -41,5 +41,8 @@ button:hover {
   color: #fff;
   font-family: serif;
 }
+.loginForm {
+  padding: 25px 25px;
+}
 
 
