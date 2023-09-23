@@ -13,6 +13,15 @@ To use it, write your name and year in the given search fields. Enter in the tea
 
 
 ## Contributing
+### Setting up Dev Environment
+
+* Please don't stage any local project related files (ex. .idea/ .vscode/) **The gitignore file will be updated soon.**
+
+#### Recommended Text Editors
+* Sublime Text/VSCode
+
+#### Recommended IDEs
+* WebStorm 
 
 ### Code Style
 
@@ -40,6 +49,8 @@ function myFunction()
     // Code
 }
 ```
+* Please keep lines to a max of 80 characters.
+
 ## Privacy Statement
 ur name and year and schedule is kept in our servers ~~so that we can hack you~~ for around like 2 weeks maybe. then is gone
 ## Credits
