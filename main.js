@@ -3,6 +3,7 @@
 // Trust svelte is wayyyy better. But the only issue is that we might not have time to learn it
 
 let counter = 0;
+
 function printHelloWorld() {
     console.log("Hello World " + counter);
     counter++;
