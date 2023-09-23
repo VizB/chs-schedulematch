@@ -1,10 +1,22 @@
-// This is a temporary js file until we move our code over to Svelte
-// Just adding a simple log command to make sure it works.
-// Trust svelte is wayyyy better. But the only issue is that we might not have time to learn it
-
 let counter = 0;
 
 function printHelloWorld() {
     console.log("Hello World " + counter);
     counter++;
 }
+
+// Stuff for the form
+let loginForm = document.getElementsByClassName("loginForm");
+
+loginForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    let name = document.getElementById("name");
+    let year = document.getElementById("year");
+
+    if(name.value == "" || year.value == "") {
+        throw Error
+    } else {
+        // Do stuff
+    }
+});

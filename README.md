@@ -15,13 +15,10 @@ To use it, write your name and year in the given search fields. Enter in the tea
 ## Contributing
 ### Setting up Dev Environment
 
-* Please don't stage any local project related files (ex. .idea/ .vscode/) **The gitignore file will be updated soon.**
+#### Please don't stage any local project related files (ex. .idea/ .vscode/) **The gitignore file will be updated soon.**
 
-#### Recommended Text Editors
-* Sublime Text/VSCode
+Use any code editor that you want. If you are not part of the verified contributers, submit a pull request/
 
-#### Recommended IDEs
-* WebStorm 
 
 ### Code Style
 
