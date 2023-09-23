@@ -10,7 +10,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem calc((100vw - 1300px) / 2);
+  padding: 1rem calc((100vw - 1300px) / 2);
 }
 .logo {
   color: #fff;
@@ -30,8 +30,6 @@ button {
   padding: 1rem 3rem;
   font-size: 1rem;
   border: none;
-  color: #fff;
-  background: #fff;
   cursor: pointer;
   border-radius: 50px;
 }
