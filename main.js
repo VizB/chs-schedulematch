@@ -1,24 +1,19 @@
 window.onload = function(){
     let loginForm = document.getElementsByClassName("loginForm");
+
     loginForm[0].addEventListener("submit", (e) => {
         e.preventDefault();
 
-        let name = document.getElementById("name");
-        let grade = document.getElementById("grade");
-
-        console.log(name.value);
-        console.log(grade.value);
-        if(name.value === "" || grade.value === "") {
-            throw Error
-        } else {
-            // Do stuff
+        // there is always 7 periods max
+        for(let i = 1; i <= 7; i++) {
+            console.log(document.getElementById("period" + i).value);
         }
     });
 }
 
-function parseName(name) {
-    for (let i = 0; i < name.length; i++) {
-        if(isNaN(name[i]) === false) {
+function parseName(string) {
+    for (let i = 0; i < string.length; i++) {
+        if(isNaN(string[i]) === false) {
             return "Invalid Name"
         }
     }
