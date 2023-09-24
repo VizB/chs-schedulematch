@@ -4,11 +4,11 @@ window.onload = function(){
         e.preventDefault();
 
         let name = document.getElementById("name");
-        let year = document.getElementById("year");
+        let grade = document.getElementById("grade");
 
         console.log(name.value);
-        console.log(year.value);
-        if(name.value === "" || year.value === "") {
+        console.log(grade.value);
+        if(name.value === "" || grade.value === "") {
             throw Error
         } else {
             // Do stuff
