@@ -1,5 +1,5 @@
 # CHS Schedule Matcher
-
+![Logo](images/Logo.png)
 ## What is this?
 This is a schedule matcher that can tell you who is in your classes without the hassle of asking everyone individually.
 
@@ -17,7 +17,8 @@ To use it, write your name and year in the given search fields. Enter in the tea
 
 #### Please don't stage any local project related files (ex. .idea/ .vscode/) **The gitignore file will be updated soon.**
 
-Use any code editor that you want. If you are not part of the verified contributers, submit a pull request/
+Use any code editor that you want. If you are not part of the verified contributers, submit a pull request to get your code
+inside the repo.
 
 
 ### Code Style
