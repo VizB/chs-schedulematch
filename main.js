@@ -7,6 +7,8 @@ window.onload = function(){
         // there is always 7 periods max
         for(let i = 1; i <= 7; i++) {
             console.log(document.getElementById("period" + i).value);
+            // Comment
+
         }
     });
 }
